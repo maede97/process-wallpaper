@@ -2,7 +2,7 @@
 
 Python and shell scripts which set your wallpaper to a wordcloud of the most resource-intensive processes presently running.
 
-![](https://raw.githubusercontent.com/anirudhajith/process-wallpaper/master/screenshot.png)
+![](https://raw.githubusercontent.com/maede97/process-wallpaper/master/screenshot.png)
 
 ## Depenendencies
 * `python3`
@@ -15,7 +15,7 @@ If `gsettings`, `plasmashell` and `feh` are all not supported by your platform, 
 * Clone this repo.
 
 ```
-git clone https://github.com/anirudhajith/process-wallpaper.git
+git clone https://github.com/maede97/process-wallpaper.git
 cd process-wallpaper
 ```
 * Set the resolution of your display in `config.json`
