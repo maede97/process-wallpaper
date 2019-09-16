@@ -19,6 +19,8 @@ for proc in psutil.process_iter():
     details = proc.as_dict(attrs=['name', 'cpu_percent', 'memory_percent'])
 
     name = details['name'].split("/")[0]
+    if("python3" in name):
+        continue
     all_processes[name]['cpu_percent'] += details['cpu_percent'] or 0
     all_processes[name]['memory_percent'] += details['memory_percent'] or 0
 
@@ -63,4 +65,4 @@ wallpaper.paste(
         config["wordcloud"]["margin"]
     )
 )
-wallpaper.save("wallpaper.png")
+wallpaper.save("wc.png")
