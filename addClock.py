@@ -43,4 +43,4 @@ for i in range(0, 359, 30):
         (width/2 - radius * cos(i), height/2 - radius*sin(i))], "#ffffff77",7)
 
 
-im.save("wallpaper.png")
+im.save("wc.png")
